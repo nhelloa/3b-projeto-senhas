@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --azul-forte:#003049ff;
+    --azul-escuro: #1c03fc;
+    --roxo-beringela: #500db5;
+    --roxo-amora:#772fc4;
+    --roxo-roxo-tulipa: #a078de;
+    --azul-zulado: #7489c4;
+    --preto: #000103;
+
+}
+
+body{
+    background-color: var(--azul-forte);
+    color: var(--roxo-beringela);
+    font-family: var(--fonte-texto);
+}
+
+.titulo-principal{
+    font-family: var(--fonte-titulo);
+}
